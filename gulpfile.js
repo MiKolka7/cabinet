@@ -37,11 +37,11 @@ gulp.task('server', function() {
         './pages/**/*.html'
     ], ['fileinclude']);
 
-    gulp.watch('./sass/**/*', ['sass']);
+    gulp.watch('./sass/**/*', ['beautify-sass']);
 });
 
 // компіляція sass/scss в css
-gulp.task('sass', ['beautify-sass'], function() {
+gulp.task('sass', function() {
     gulp.src(['./sass/**/*.scss', './sass/**/*.sass'])
         .pipe(sourcemaps.init())
         .pipe(
@@ -54,7 +54,7 @@ gulp.task('sass', ['beautify-sass'], function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('beautify-sass', function() {
+gulp.task('beautify-sass', ['sass'], function() {
     gulp.src(['./sass/**/*.scss', './sass/**/*.scss'])
         .pipe(sassbeautify())
         .pipe(gulp.dest('./sass'))
