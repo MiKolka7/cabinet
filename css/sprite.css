@@ -1,0 +1,470 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../images/svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 46.2em 146.8em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../images/svg/sprite.png");
+}
+
+
+
+  .icon.dashed-arc:before {
+      background-position: 0em 0em;
+      width: 46.2em;
+      height: 5.288em;
+  }
+
+
+
+
+  .icon.icon-arrow-left:before {
+      background-position: 0em -5.3em;
+      width: 0.9em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.icon-arrow-menu:before {
+      background-position: 0em -6.9em;
+      width: 0.7em;
+      height: 1.2em;
+  }
+
+
+
+
+  .icon.icon-arrow-right:before {
+      background-position: 0em -8.1em;
+      width: 0.9em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.icon-atom:before {
+      background-position: 0em -9.7em;
+      width: 1.8em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.icon-attach:before {
+      background-position: 0em -11.5em;
+      width: 2.6719999999999997em;
+      height: 2.456em;
+  }
+
+
+
+
+  .icon.icon-calendar:before {
+      background-position: 0em -14em;
+      width: 1.3em;
+      height: 1.1em;
+  }
+
+
+
+
+  .icon.icon-chart:before {
+      background-position: 0em -15.1em;
+      width: 2em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.icon-collapse-block-left:before {
+      background-position: 0em -16.9em;
+      width: 1.2em;
+      height: 1.4em;
+  }
+
+
+
+
+  .icon.icon-collapse-block-right:before {
+      background-position: 0em -18.3em;
+      width: 1.2em;
+      height: 1.4em;
+  }
+
+
+
+
+  .icon.icon-consultant:before {
+      background-position: 0em -19.7em;
+      width: 2em;
+      height: 2.5em;
+  }
+
+
+
+
+  .icon.icon-doc:before {
+      background-position: 0em -22.2em;
+      width: 3.9em;
+      height: 5.3em;
+  }
+
+
+
+
+  .icon.icon-doc2:before {
+      background-position: 0em -27.5em;
+      width: 2.6em;
+      height: 3.4em;
+  }
+
+
+
+
+  .icon.icon-download:before {
+      background-position: 0em -30.9em;
+      width: 2em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.icon-email:before {
+      background-position: 0em -32.5em;
+      width: 2.319em;
+      height: 2.322em;
+  }
+
+
+
+
+  .icon.icon-email2:before {
+      background-position: 0em -34.9em;
+      width: 2.4em;
+      height: 2.4em;
+  }
+
+
+
+
+  .icon.icon-facebook:before {
+      background-position: 0em -37.3em;
+      width: 1em;
+      height: 1.9em;
+  }
+
+
+
+
+  .icon.icon-flag-blue:before {
+      background-position: 0em -39.2em;
+      width: 3.8em;
+      height: 6.2em;
+  }
+
+
+
+
+  .icon.icon-flag-red:before {
+      background-position: 0em -45.4em;
+      width: 3.8em;
+      height: 6.2em;
+  }
+
+
+
+
+  .icon.icon-flag-ua:before {
+      background-position: 0em -51.6em;
+      width: 1.6em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.icon-guest:before {
+      background-position: 0em -53.2em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .icon.icon-hide:before {
+      background-position: 0em -57.2em;
+      width: 2.1em;
+      height: 1.3em;
+  }
+
+
+
+
+  .icon.icon-home:before {
+      background-position: 0em -58.5em;
+      width: 2.163em;
+      height: 1.9469999999999998em;
+  }
+
+
+
+
+  .icon.icon-lemons:before {
+      background-position: 0em -60.5em;
+      width: 4.325em;
+      height: 2.8280000000000003em;
+  }
+
+
+
+
+  .icon.icon-link:before {
+      background-position: 0em -63.4em;
+      width: 3em;
+      height: 2.806em;
+  }
+
+
+
+
+  .icon.icon-location:before {
+      background-position: 0em -66.3em;
+      width: 2.1em;
+      height: 3.1em;
+  }
+
+
+
+
+  .icon.icon-market:before {
+      background-position: 0em -69.4em;
+      width: 2.6em;
+      height: 2.1em;
+  }
+
+
+
+
+  .icon.icon-mobile:before {
+      background-position: 0em -71.5em;
+      width: 2.2em;
+      height: 3.6em;
+  }
+
+
+
+
+  .icon.icon-mobile2:before {
+      background-position: 0em -75.1em;
+      width: 2.2em;
+      height: 3.6em;
+  }
+
+
+
+
+  .icon.icon-more:before {
+      background-position: 0em -78.7em;
+      width: 2em;
+      height: 1.4em;
+  }
+
+
+
+
+  .icon.icon-next:before {
+      background-position: 0em -80.1em;
+      width: 1.1em;
+      height: 2em;
+  }
+
+
+
+
+  .icon.icon-notification:before {
+      background-position: 0em -82.1em;
+      width: 2.503em;
+      height: 3.3em;
+  }
+
+
+
+
+  .icon.icon-ok:before {
+      background-position: 0em -85.4em;
+      width: 1.003em;
+      height: 1.2em;
+  }
+
+
+
+
+  .icon.icon-pass:before {
+      background-position: 0em -86.6em;
+      width: 1.5em;
+      height: 2.003em;
+  }
+
+
+
+
+  .icon.icon-play:before {
+      background-position: 0em -88.7em;
+      width: 2.1em;
+      height: 2.197em;
+  }
+
+
+
+
+  .icon.icon-search:before {
+      background-position: 0em -90.9em;
+      width: 1.909em;
+      height: 1.9129999999999998em;
+  }
+
+
+
+
+  .icon.icon-select:before {
+      background-position: 0em -92.9em;
+      width: 1.2em;
+      height: 0.6em;
+  }
+
+
+
+
+  .icon.icon-select-sm:before {
+      background-position: 0em -93.5em;
+      width: 0.8em;
+      height: 0.4em;
+  }
+
+
+
+
+  .icon.icon-send:before {
+      background-position: 0em -93.9em;
+      width: 1.197em;
+      height: 1.9969999999999999em;
+  }
+
+
+
+
+  .icon.icon-shield:before {
+      background-position: 0em -95.9em;
+      width: 1.8em;
+      height: 2.1em;
+  }
+
+
+
+
+  .icon.icon-show:before {
+      background-position: 0em -98em;
+      width: 2.1em;
+      height: 1.1em;
+  }
+
+
+
+
+  .icon.icon-smth:before {
+      background-position: 0em -99.1em;
+      width: 1.982em;
+      height: 1.9780000000000002em;
+  }
+
+
+
+
+  .icon.icon-twitter:before {
+      background-position: 0em -101.1em;
+      width: 2.1em;
+      height: 1.7em;
+  }
+
+
+
+
+  .icon.icon-umbrella:before {
+      background-position: 0em -102.8em;
+      width: 1.9em;
+      height: 1.7em;
+  }
+
+
+
+
+  .icon.icon-user:before {
+      background-position: 0em -104.5em;
+      width: 2.5em;
+      height: 3.103em;
+  }
+
+
+
+
+  .icon.icon-youtube:before {
+      background-position: 0em -107.7em;
+      width: 1.6940000000000002em;
+      height: 1.706em;
+  }
+
+
+
+
+  .icon.icons-edit:before {
+      background-position: 0em -109.5em;
+      width: 1.2em;
+      height: 1.2em;
+  }
+
+
+
+
+  .icon.skype:before {
+      background-position: 0em -110.7em;
+      width: 2.6em;
+      height: 2.413em;
+  }
+
+
+
+
+  .icon.triangle-part-left:before {
+      background-position: 0em -113.2em;
+      width: 16.301em;
+      height: 16.719em;
+  }
+
+
+
+
+  .icon.triangle-part-right:before {
+      background-position: 0em -130em;
+      width: 16.301em;
+      height: 16.719em;
+  }
+
+
+
+
+
