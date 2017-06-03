@@ -1,0 +1,45 @@
+.autorization {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+
+}
+.autorization-title {
+	padding: 71px 0 24px;
+	font-size: 24px;
+	color: #1a2235;
+}
+.autorization-title::before{
+	content: "";
+}
+.autorization-field {
+	border: 1px solid #ccc;	
+	text-align: left;
+	width: 319px;
+	margin: auto;
+
+}
+.autorization-info{
+color: #939497;
+font-size: 14px;
+padding: 10px 0 10px 20px;	
+}
+.autorization-login{
+	font-size: 20px;
+	padding: 0 0 5px 20px;
+}
+.autorization-tel {
+	padding: 24px 89px;
+	background-color: #176bb3;
+	color: #fff;
+	margin: 48px 0 50px;
+	font-size: 16px;
+	box-shadow: 0 4px 10px rgba(29, 107, 178, 0.2), 0 3px 6px rgba(29, 107, 178, 0.15);
+}
+.autorization-submit{
+	display: none;
+}
+.autorization-text-info{
+color: #aeb2bb;
+font-size: 14px;
+}
