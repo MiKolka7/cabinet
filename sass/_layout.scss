@@ -1,0 +1,20 @@
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	
+	
+	@media screen and (max-width: 768px) {
+		width: 50%;
+	}
+}
+
+.row {
+	margin: 0 -2%;
+}
+
+.col-4 {
+	width: 31%;
+	margin: 0 1%;
+	float: left;
+	display: block;
+}
