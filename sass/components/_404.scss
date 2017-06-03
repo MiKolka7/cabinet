@@ -3,7 +3,7 @@ $text-color: #aeb2bb;
     max-width: 1090px;
 }
 
-.page-404__title {
+&__title {
     max-width: 240px;
     color: $text-color;
     font-size: 16px;
@@ -13,7 +13,7 @@ $text-color: #aeb2bb;
     margin: 0 auto 33px;
 }
 
-.page-404__img-container {
+&__img-container {
     max-width: 165px;
     margin: 0 auto;
 }
