@@ -1,0 +1,58 @@
+.menu {
+	background: rgba(7, 97, 179, 0.8);
+	width: 320px;
+	position: fixed;
+	height: 100%;
+	padding: 2%;
+}
+.menu li {
+	cursor: pointer;
+}
+
+.menu_list {
+	position: relative;
+	padding: 10px;
+
+}
+
+.menu_list_item {
+	width: 100%;
+	padding: 10px;
+
+}
+
+.menu_list_item_name {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+	.list_sub {
+		color: #fff;
+		font-size: 14px; 
+		top: 100%;
+		left: -1px;
+
+
+	}
+
+	.list_sub_menu {
+		padding: 10px;
+
+	}
+
+	.list_sub_menu_name {
+
+	}
+
+	.list_sub_menu p:after {
+		content: ">";
+		float: right;
+		
+
+	}
+
+	.list_sub_menu:hover {
+		color: #f4c148;
+	}
+
