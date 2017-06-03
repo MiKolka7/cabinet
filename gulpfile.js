@@ -55,7 +55,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('beautify-sass', ['sass'], function() {
-    gulp.src(['./sass/**/*.scss', './sass/**/*.scss'])
+    gulp.src(['./sass/**/*.sass', './sass/**/*.scss'])
         .pipe(sassbeautify())
         .pipe(gulp.dest('./sass'))
 })
