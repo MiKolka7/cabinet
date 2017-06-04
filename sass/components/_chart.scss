@@ -1,0 +1,152 @@
+h3 {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.nav img {
+  width: 6%;
+  padding: 18px;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+
+.item {
+      position: relative;
+      width: 150px;
+      display: inline-block;
+      height: 100%;
+      margin: 0 2%;
+
+}
+.item p {
+      font-family: sans-serif;
+      position: absolute;
+      bottom: -50px;
+      transform: translate(30%, -50%);
+}
+
+
+.info {
+  border-radius: 4px;
+  width: 50px;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: #236CAF;
+  margin: 0 2%;
+}
+
+
+.container-border {
+  position: relative;
+  height: 380px;
+  width: 100%;
+  border-bottom: 2px solid #f0f0f0;
+  padding-left: 3%;
+}
+
+
+
+.pink-stuff {
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 9px 15px;
+  background-color: #ea3a5a;
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translate(-50%, -50%);
+  line-height: 12px;
+  margin: 0 auto;
+}
+.pink-stuff::after {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #ea3a5a;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  content: '';
+}
+
+
+.round-one {
+    margin: auto;
+    position: relative;
+    top: 20%;
+    border: 3px solid #fff;
+    background: #ea3a5a;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.green-stuff {
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: -60px;
+  transform: translate(-50%, -50%);
+  padding: 9px 14px;
+  background-color: #7aa440;
+  border-radius: 5px;
+
+}
+
+.green-stuff::after {
+  width: 0px;
+  height: 0px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #7aa440;
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  content: '';
+
+}
+
+.years {
+  width: 100%;
+  white-space: nowrap;
+  display: inline-block;
+
+
+}
+
+
+.years ul {
+  list-style-type: none;
+  font-family: sans-serif;
+
+}
+
+.years li {
+  display: inline;
+  margin-right: 11%;
+  margin-left: 3%;
+}
