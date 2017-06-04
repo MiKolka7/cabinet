@@ -37,7 +37,7 @@ gulp.task('server', function() {
         './pages/**/*.html'
     ], ['fileinclude']);
 
-    gulp.watch('./sass/**/*', ['beautify-sass']);
+    gulp.watch('./sass/**/*', ['sass']);
 });
 
 // компіляція sass/scss в css
