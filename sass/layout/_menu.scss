@@ -4,55 +4,134 @@
 	position: fixed;
 	height: 100%;
 	padding: 2%;
-}
-.menu li {
-	cursor: pointer;
+	top: 0;
+	left: 0;
 }
 
-.menu_list {
-	position: relative;
-	padding: 10px;
+.menu_header{
+
 
 }
 
-.menu_list_item {
-	width: 100%;
-	padding: 10px;
+.burger {
+	svg {
 
+		.a {
+			stroke: #fff;
+		}
+	}
+}
+	
+.icon {
+	padding: 0 20px 3px;
+	width: 20px;
+	vertical-align: middle;
+
+
+
+	svg {
+
+		.a {
+			stroke: #fff;
+		}
+	}
 }
 
-.menu_list_item_name {
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 16px;
-}
-
-	.list_sub {
-		color: #fff;
-		font-size: 14px; 
-		top: 100%;
-		left: -1px;
-
-
+	.menu li {
+		cursor: pointer;
 	}
 
-	.list_sub_menu {
+	
+
+	.menu_list {
+		position: relative;
 		padding: 10px;
+		vertical-align: middle;
 
 	}
 
-	.list_sub_menu_name {
-
-	}
-
-	.list_sub_menu p:after {
-		content: ">";
+	.menu_list_item {
+		width: 100%;
+		padding: 10px;
 		float: right;
+
+	}
+
+	.menu_list_item_name {
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 16px;
+		vertical-align: middle;
+    	display: inline-block;
+	}
+
+		.list_sub {
+			color: #fff;
+			font-size: 14px; 
+			padding: 14px 30px ;
+
+
+
+		}
+
+		.list_sub_menu {
+			padding: 10px;
+
+		}
+
+		.list_sub_menu_n::before {
+			content: '';
+	  		width: 0.3em;
+		    height: 0.3em;
+		    background-color: #fff;
+		    display: inline-block;
+		    margin-right: 16px;
+		    vertical-align: top;
+		    position: relative;
+		    border-radius: 0.3em;
+		    vertical-align: middle;
+		   
+		}
+
+		.list_sub_menu:hover {
+			&.list_sub_menu p:after {
+				content: ">";
+			float: right;
+			}
+
+		}
+
+		.list_sub_menu:hover {
+			color: #f4c148;
+		}
+
+
+.menu_footer {
+	position: absolute;
+	  left: 0;
+	  bottom: 125px;
+	  width: 100%;
+	  margin: 0 auto;
+	 
+}
+
+	.footer_list {
+		text-align: center;
+		padding: 20px 70px;
+		position: absolute;
+		width: 100%;
 		
-
 	}
 
-	.list_sub_menu:hover {
-		color: #f4c148;
-	}
+		.foter_list_item {
+			float: left;
+			margin:  0 8px;
+		}
+
+		.contact {
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 40px;
+			text-align: center;
+		}
 
