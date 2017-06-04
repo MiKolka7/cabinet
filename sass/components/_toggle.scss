@@ -1,0 +1,34 @@
+.toggle {
+    width: 100%;
+    height: 48px;
+    .toggle__elements {
+        text-align: left;
+        // width: 56px;
+        a {
+            height: 11px;
+            color: #1a2235;
+            font-family: Roboto;
+            font-size: 1em;
+            font-weight: bolder;
+            // line-height: 24px;
+            text-transform: uppercase;
+            // display: block;
+            @media screen and (max-width: 760px) {
+                font-size: 0.8em;
+            }
+            @media screen and (max-width: 400px) {
+                font-size: 0.6em;
+            }
+        }
+        td {
+            border: 2px dotted;
+            padding: 1% 0 1% 2%;
+            color: #1a2235;
+        }
+    }
+    .toggle__elements td:active {
+
+    	text-decoration: underline;
+        color: #4c9d11;
+       }
+}
