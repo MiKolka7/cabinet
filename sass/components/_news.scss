@@ -20,16 +20,20 @@
 			position: absolute;
 			top: 0;
 			opacity: 0.8;
-			display: none;
-			&::after {
-				content: "";
-				width: 73px;
-				height: 73px;
-				position: absolute;
-				background-color: #fff;
-				border-radius: 50%;
-			}
-		}
+			display: none;	
+	}
+
+	.circle {
+		width: 73px;
+		height: 73px;
+		position: absolute;
+		background-color: #fff;
+		border-radius: 50%;
+		top: 50%;
+		left: 50%;
+	}
+
+
 	&:hover {
 		top: -10px;
 		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.1);
@@ -62,12 +66,16 @@
 	text-align: right;
 	margin-bottom: 20px;
 	
-	.left_arrow, .right_arrow {
-		font-size: 25px;
-		color: #b7bbc3;
-		margin: 0 20px;
-		&:hover {
-			color: #4b9e08;
-		}
-	}
+	// .left_arrow {
+
+	// }
+
+	// .left_arrow, .right_arrow {
+	// 	font-size: 25px;
+	// 	color: #b7bbc3;
+	// 	margin: 0 20px;
+	// 	&:hover {
+	// 		color: #4b9e08;
+	// 	}
+	// }
 }

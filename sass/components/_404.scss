@@ -1,0 +1,17 @@
+$text-color: #aeb2bb;
+.page-404 {
+    max-width: 1090px;
+    &__title {
+        max-width: 240px;
+        color: $text-color;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 33px;
+        margin: 0 auto 33px;
+    }
+    &__img-container {
+        max-width: 165px;
+        margin: 0 auto;
+    }
+}
