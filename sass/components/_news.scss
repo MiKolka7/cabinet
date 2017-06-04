@@ -27,22 +27,32 @@
 		width: 73px;
 		height: 73px;
 		position: absolute;
-		background-color: #ccc;
+		background-color: #fff;
 		border-radius: 50%;
 		top: 50%;
 		left: 0;
 		right: 0;
 		margin: auto;
 		transform: translate(0, -50%);
+		img {
+			width: 50%;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			right: 0;
+			margin: auto;
+			transform: translate(0, -50%);
+		}
+		display: none;
 	}
 
 
 	&:hover {
 		top: -10px;
 		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.1);
-		.green_bg {
+		.green_bg, .circle {
 			display: block;
-		}
+		} 
 	}
 	
 	.menu__item__image {
@@ -65,7 +75,11 @@
 	}
 }
 
-.toggle {
+.toggle_main {
 	text-align: right;
 	margin-bottom: 20px;
+}
+
+.left_arrow_main, .right_arrow_main {
+	margin: 0 20px 0;
 }
