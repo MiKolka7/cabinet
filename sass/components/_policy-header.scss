@@ -1,0 +1,71 @@
+.policy-header {
+    padding: 31px;
+    overflow: hidden;
+}
+
+.policy-title {
+    float: left;
+    width: 50%;
+    &__title {
+        max-width: 588px;
+        color: #1a2235;
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 19px;
+    }
+    &__small-title {
+        max-width: 208px;
+        color: #1d6bb2;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &__title,
+    &__small-title {
+        line-height: 24px;
+    }
+}
+
+.policy-button {
+    box-sizing: border-box;
+    float: right;
+    width: 30%;
+    text-align: right;
+    &__button {
+    position: relative;
+    display: inline-block;
+    margin-right: 36px;
+    box-shadow: 0 4px 10px rgba(29, 107, 178, 0.2), 0 3px 6px rgba(29, 107, 178, 0.15);
+    border-radius: 2px;
+    background-color: #1d6bb2;
+    padding: 15px 45px 15px 15px;
+    }
+    &__first-text {
+        margin-bottom: 2%;
+    }
+    &__first-text,
+    &__second-text {
+        color: #fff;
+        font-weight: 500;
+        line-height: 20px;
+        text-transform: uppercase;
+        font-size: 22px;
+    }
+    &__second-text {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    &__img {
+        position: absolute;
+        width: 73px;
+        height: 73px;
+        background: white;
+        border-radius: 50%;
+        top: 0;
+        right: -36px;
+        box-shadow: 0 4px 10px rgba(29, 107, 178, 0.2), 0 3px 6px rgba(29, 107, 178, 0.15);
+        text-align: center;
+    }
+    &__img svg {
+        line-height: 50px;
+    }
+}
