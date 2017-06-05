@@ -1,6 +1,7 @@
 .policy-header {
     padding: 31px;
     overflow: hidden;
+    margin-top: 68px;
 }
 
 .policy-title {
@@ -31,13 +32,13 @@
     width: 30%;
     text-align: right;
     &__button {
-    position: relative;
-    display: inline-block;
-    margin-right: 36px;
-    box-shadow: 0 4px 10px rgba(29, 107, 178, 0.2), 0 3px 6px rgba(29, 107, 178, 0.15);
-    border-radius: 2px;
-    background-color: #1d6bb2;
-    padding: 15px 45px 15px 15px;
+        position: relative;
+        display: inline-block;
+        margin-right: 36px;
+        box-shadow: 0 4px 10px rgba(29, 107, 178, 0.2), 0 3px 6px rgba(29, 107, 178, 0.15);
+        border-radius: 2px;
+        background-color: #1d6bb2;
+        padding: 15px 45px 15px 15px;
     }
     &__first-text {
         margin-bottom: 2%;
@@ -58,14 +59,15 @@
         position: absolute;
         width: 73px;
         height: 73px;
+        line-height: 73px;
         background: white;
         border-radius: 50%;
         top: 0;
         right: -36px;
         box-shadow: 0 4px 10px rgba(29, 107, 178, 0.2), 0 3px 6px rgba(29, 107, 178, 0.15);
-        text-align: center;
     }
     &__img svg {
-        line-height: 50px;
+        line-height: 36px;
+        margin: 0 auto;
     }
 }
