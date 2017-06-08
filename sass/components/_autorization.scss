@@ -1,17 +1,15 @@
 .autorization {
-	margin: 0 auto;
+	margin: 68px auto 0;
 	display: block;
 	text-align: center;
-
+	
 }
 .autorization-title {
 	padding: 71px 0 24px;
 	font-size: 24px;
 	color: #1a2235;
 }
-.autorization-title::before{
-	content: "";
-}
+
 .autorization-field {
 	border: 1px solid #ccc;	
 	text-align: left;
