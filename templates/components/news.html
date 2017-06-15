@@ -1,11 +1,62 @@
 <div class="news">
     <header class="news__toggle">
         <button class="left_arrow_main">
-		@@include('../../images/icons/general/icon-arrow-left.svg')
-		</button>
+            @@include('../../images/icons/general/icon-arrow-left.svg')
+        </button>
         <button class="right_arrow_main">@@include('../../images/icons/general/icon-arrow-right.svg')</button>
     </header>
-    <ul class="news_menu">
-        @@loop("news-loop.html", "/../data/news.json")
-    </ul>
+    <div class="news_menu">
+        <a href="#" class="news_menu__item">
+            <div class="news_menu__image">
+                <img src="../../img/requisites_change.jpg">
+                <div class="green_bg">
+                    <div class="news_menu__circle">
+                        <img src="../../images/3-layers.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <h3 class="news_menu__item__title">
+				Зміна реквізитів для оплати рахунків
+			</h3>
+        </a>
+        <a href="#" class="news_menu__item">
+            <div class="news_menu__image">
+                <img src="../../img/wwt.jpg">
+                <div class="green_bg">
+                    <div class="news_menu__circle">
+                        <img src="../../images/3-layers.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <h3 class="news_menu__item__title">
+				Вітання із Днем Великої Перемоги!
+			</h3>
+        </a>
+        <a href="#" class="news_menu__item">
+            <div class="news_menu__image">
+                <img src="../../img/Insurance.jpg">
+                <div class="green_bg">
+                    <div class="news_menu__circle">
+                        <img src="../../images/3-layers.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <h3 class="news_menu__item__title">
+				Ми знову лідер на ринку страхування із заробленого інвестиційного доходу
+			</h3>
+        </a>
+        <a href="#" class="news_menu__item">
+            <div class="news_menu__image">
+                <img src="../../img/birthday.jpg">
+                <div class="green_bg">
+                    <div class="news_menu__circle">
+                        <img src="../../images/3-layers.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <h3 class="news_menu__item__title">
+				День народження Страхової компанії	
+			</h3>
+        </a>
+    </div>
 </div>
